@@ -1,0 +1,11 @@
+meta:
+  environment: python
+  toolchain:
+    name: uv
+    version: "3.12"
+
+build:
+  requirementsPath: requirements.txt
+
+run:
+  command: PYTHONPATH=src python -m meme_bot
